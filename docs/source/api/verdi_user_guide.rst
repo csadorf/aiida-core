@@ -1,5 +1,9 @@
 .. _cli_concepts:
 
+***********
+verdi (CLI)
+***********
+
 Concepts
 ========
 

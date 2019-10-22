@@ -53,81 +53,73 @@ For developers
  * You are also more than welcome to join the `AiiDA mailing list <http://www.aiida.net/mailing-list/>`_ or contribute to aiida-core on `GitHub <https://github.com/aiidateam/aiida-core>`_.
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Installation
-    :hidden:
+   :maxdepth: 2
+   :caption: Installation
+   :hidden:
 
-    install/quick_installation
-    install/prerequisites
-    install/installation
-    install/configuration
-    install/updating_installation
-    install/troubleshooting
-
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Getting started
-    :hidden:
-
-    get_started/index
-    get_started/computers
-    get_started/codes
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Working with AiiDA
-    :hidden:
-
-    working_with_aiida/index
-    import_export/index
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Reference guide
-    :hidden:
-
-    reference/provenance
-    reference/data
-    reference/processes
-    reference/functions
-    reference/calculations
-    reference/workflows
+   install/prerequisites
+   install/quick_installation
+   install/updating_installation
+   install/troubleshooting
 
 .. toctree::
    :maxdepth: 1
-   :caption: AiiDA plugin development
+   :caption: Working with AiiDA
    :hidden:
 
-   developer_guide/plugins/basics
-   developer_guide/plugins/quickstart
-   developer_guide/plugins/entry_points
-   developer_guide/plugins/documenting
-   developer_guide/plugins/plugin_tests
-   developer_guide/plugins/publish
-   developer_guide/plugins/update_plugin
+   topic_guides/intro
+   topic_guides/workflows
+   topic_guides/data
+   topic_guides/extensions
 
 .. toctree::
-    :maxdepth: 1
-    :caption: AiiDA core development
-    :hidden:
+   :maxdepth: 1
+   :caption: Reference guide
+   :hidden:
 
-    developer_guide/core/internals
-    developer_guide/core/transport
-    developer_guide/core/modifying_the_schema
-    developer_guide/core/extend_restapi
-    developer_guide/core/caching
-    developer_guide/core/plugin_system
-    developer_guide/tools/sphinx_cheatsheet
-    developer_guide/tools/visual_aids
-    developer_guide/design/changes
+   reference/provenance
+   reference/data
+   reference/processes
+   reference/functions
+   reference/calculations
+   reference/workflows
+   reference/resultmanager
+   backup/index
+   reference/visualising_graphs/index
+   reference/computers
+   reference/codes
+   reference/caching
+   reference/groups
+   reference/deleting_nodes
+   reference/troubleshooting
+   reference/scripting
+   import_export/index
 
 .. toctree::
-    :maxdepth: 1
-    :caption: API reference
-    :hidden:
+   :maxdepth: 1
+   :caption: Howto
+   :hidden:
 
-    apidoc/aiida
+   howto/cookbook
+   howto/daemon_service
+
+.. toctree::
+   :maxdepth: 1
+   :caption: API reference
+   :hidden:
+
+   api/verdi_user_guide
+   apidoc/aiida
+   api/REST
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Development
+   :hidden:
+
+   developer_guide/plugins
+   developer_guide/core
+
 
 ***********
 How to cite

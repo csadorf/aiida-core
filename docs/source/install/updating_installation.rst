@@ -1,8 +1,8 @@
 .. _updating_aiida:
 
-**************
-Updating AiiDA
-**************
+********
+Updating
+********
 
 .. _updating_instructions:
 

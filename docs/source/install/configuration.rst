@@ -1,7 +1,7 @@
 .. _configure_aiida:
 
-Configure AiiDA
-===============
+Configuration
+=============
 
 .. _tab-completion:
 

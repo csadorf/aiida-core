@@ -1,5 +1,9 @@
 .. _deleting_nodes:
 
+**************
+Deleting nodes
+**************
+
 Usage
 =====
 

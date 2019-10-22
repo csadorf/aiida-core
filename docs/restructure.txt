@@ -1,0 +1,81 @@
+---
+documentclass: scrreprt
+author: Carl Simon Adorf (simon.adorf@epfl.ch)
+date: 2019-10-22
+title: AiiDA Documentation Restructuring
+---
+
+## About
+
+This document describes a proposal on how to restructure the AiiDA-core documentation.
+
+## Competency scales used in this document.
+
+Source: https://hr.nih.gov/working-nih/competencies/competencies-proficiency-scale
+
+1. Fundamental awareness (basic knowledge)
+2. Novice (limited experience)
+3. Intermediate (practical application)
+4. Advanced (applied theory)
+5. Expert (recognized authoriy)
+
+## Guidelines on documentation structure
+
+The following points describe the documentation elements, their purpose at what competency level they are aimed at.
+
+* Route to installation should be as linear as possible and must be FAST (< 10mins). @1-5
+* The tutorial must *show* and *teach* all **essential** components, it should not be complete. @1-2
+* The Topic Guides help users accomplish certain tasks; they serve as a *basic reference* on how to solve specific problems. @2-3
+* The Reference Guides should be a complete stand-alone reference for a *specific* topic and help advanced users gain better understanding and serve as reference. @3-5
+* The API documentation should be a loosely structured, complete reference to all components belonging to AiiDA-core (CLI and Python API). @2-5
+
+
+## Proposed revised structure
+
+* Installation
+    * Database Setup
+        * Ubuntu
+        * MacOS-X
+        * Windows
+    * Quick Installation Guide
+    * Complete Installation Guide
+    * Update / Migration
+* Tutorial
+* Topic Guides
+    * Workflows
+        * About
+        * Design
+        * Run
+        * Submit
+    * Data / Data access
+        * About
+        * Query
+        * Delete
+        * Provenance
+        * Transport
+    * Plug-Ins
+        * Concept
+        * Install
+        * Use
+        * Develop
+    * RESTful API
+        * About
+        * Start
+        * Develop (may be better somewhere else)
+* Reference Guides
+    * Data Types
+    * Work functions & Work chains
+    * Processes
+    * ResultManager
+    * Groups
+    * Backups
+    * Caching
+* API
+    * CLI
+    * Python API
+* Cook book
+    * Verdi daemon as system service
+* Troubleshooting
+* Plug-In Development
+* Core Development
+
