@@ -167,7 +167,7 @@ In the case of the example above, it would look something like the following:
         result = self.run_fn(*self.args, **self.kwargs)
       File "/home/sphuber/code/aiida/env/dev/aiida-core/aiida/engine/processes/functions.py", line 319, in run
         result = self._func(*args, **kwargs)
-      File "docs/source/working/include/snippets/processes/functions/calcfunction_exception.py", line 6, in divide
+      File "docs/source/reference/include/snippets/processes/functions/calcfunction_exception.py", line 6, in divide
         return x / y
       File "/home/sphuber/code/aiida/env/dev/aiida-core/aiida/orm/nodes/data/numeric.py", line 30, in inner
         return to_aiida_type(func(left, right))

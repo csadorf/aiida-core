@@ -82,27 +82,17 @@ For developers
     working_with_aiida/index
     import_export/index
 
-
 .. toctree::
     :maxdepth: 1
-    :caption: Terms and Concepts
+    :caption: Reference guide
     :hidden:
 
-    concepts/provenance
-    concepts/processes
-    concepts/calculations
-    concepts/workflows
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Workflow development
-    :hidden:
-
-    working/data
-    working/processes
-    working/functions
-    working/calculations
-    working/workflows
+    reference/provenance
+    reference/data
+    reference/processes
+    reference/functions
+    reference/calculations
+    reference/workflows
 
 .. toctree::
    :maxdepth: 1
