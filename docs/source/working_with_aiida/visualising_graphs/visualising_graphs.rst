@@ -3,6 +3,7 @@
 
 .. _VisualizingGraphs:
 
+=============================
 Visualizing Provenance Graphs
 =============================
 

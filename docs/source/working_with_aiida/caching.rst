@@ -1,8 +1,8 @@
 .. _caching:
 
-*******
+=======
 Caching
-*******
+=======
 
 Enabling caching
 ----------------

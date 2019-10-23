@@ -1,5 +1,9 @@
 .. _my-reference-to-scheduler:
 
+==========
+Schedulers
+==========
+
 Supported schedulers
 ++++++++++++++++++++
 

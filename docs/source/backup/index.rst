@@ -1,5 +1,9 @@
 .. _backup:
 
+=======
+Backups
+=======
+
 On this page you will find useful information on how to backup your database, how to move it to a different location, and how to backup your repository.
 
 
