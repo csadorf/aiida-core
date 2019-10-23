@@ -79,7 +79,18 @@ For developers
     :caption: Working with AiiDA
     :hidden:
 
-    working_with_aiida/index
+    working_with_aiida/cli
+    working_with_aiida/python_api
+    datatypes/index
+    working_with_aiida/groups
+    scheduler/index
+    querying/index
+    working_with_aiida/caching
+    working_with_aiida/resultmanager
+    backup/index
+    working_with_aiida/troubleshooting
+    working_with_aiida/visualising_graphs/visualising_graphs
+    working_with_aiida/deleting_nodes.rst
     import_export/index
 
 .. toctree::
@@ -128,6 +139,16 @@ For developers
     :hidden:
 
     apidoc/aiida
+    restapi/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: How-to Guide
+   :hidden:
+
+   working_with_aiida/cookbook
+   howto/daemon_service.rst
+
 
 ***********
 How to cite

@@ -1,5 +1,9 @@
 .. _python_api_public_list:
 
+==========
+Python API
+==========
+
 Public resources
 ----------------
 

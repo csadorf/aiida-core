@@ -1,5 +1,6 @@
+======
 Groups
-------
+======
 
 Groups are a tool to organize the nodes of the provenance graph into sub sets. Any
 number of groups can be created and each group can contain any number of nodes of any type.
