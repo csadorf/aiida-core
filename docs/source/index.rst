@@ -70,7 +70,7 @@ For developers
     :caption: Getting started
     :hidden:
 
-    get_started/index
+    get_started/plugins
     get_started/computers
     get_started/codes
 
