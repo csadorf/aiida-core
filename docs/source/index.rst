@@ -79,8 +79,6 @@ For developers
     :caption: Working with AiiDA
     :hidden:
 
-    topics/cli
-    topics/python_api
     topics/scripting
     topics/datatypes/index
     topics/groups
@@ -139,8 +137,9 @@ For developers
     :caption: API reference
     :hidden:
 
+    api/cli
     apidoc/aiida
-    restapi/index
+    api/rest
 
 .. toctree::
    :maxdepth: 1
