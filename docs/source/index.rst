@@ -81,6 +81,7 @@ For developers
 
     topics/cli
     topics/python_api
+    topics/scripting
     datatypes/index
     topics/groups
     scheduler/index
