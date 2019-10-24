@@ -25,7 +25,7 @@ You can load such a calculation -- we'll call it ``calc`` -- with the command
     from aiida.orm import load_node
     calc = load_node(YOURPK)
 
-either in ``verdi shell``, or in a python script (as described :doc:`here <../working_with_aiida/scripting>`).
+either in ``verdi shell``, or in a python script (as described :doc:`here <scripting>`).
 ``YOURPK`` should be substituted by a valid calculation ``PK`` in your database.
 
 Using the CalcJobResultManager instance
