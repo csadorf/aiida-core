@@ -79,18 +79,18 @@ For developers
     :caption: Working with AiiDA
     :hidden:
 
-    working_with_aiida/cli
-    working_with_aiida/python_api
+    topics/cli
+    topics/python_api
     datatypes/index
-    working_with_aiida/groups
+    topics/groups
     scheduler/index
     querying/index
-    working_with_aiida/caching
-    working_with_aiida/resultmanager
+    topics/caching
+    topics/resultmanager
     backup/index
-    working_with_aiida/troubleshooting
-    working_with_aiida/visualising_graphs/visualising_graphs
-    working_with_aiida/deleting_nodes.rst
+    topics/troubleshooting
+    topics/visualising_graphs/visualising_graphs
+    topics/deleting_nodes.rst
     import_export/index
 
 .. toctree::
@@ -146,7 +146,7 @@ For developers
    :caption: How-to Guide
    :hidden:
 
-   working_with_aiida/cookbook
+   topics/cookbook
    howto/daemon_service.rst
 
 
