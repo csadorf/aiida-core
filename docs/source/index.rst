@@ -88,7 +88,6 @@ For developers
     topics/resultmanager
     topics/backup/index
     topics/troubleshooting
-    topics/visualising_graphs/visualising_graphs
     topics/deleting_nodes.rst
     topics/import_export/index
 
@@ -126,8 +125,9 @@ For developers
    :caption: How-to Guide
    :hidden:
 
-   topics/cookbook
+   howto/cookbook
    howto/daemon_service.rst
+   howto/visualising_graphs/visualising_graphs
 
 
 ***********
