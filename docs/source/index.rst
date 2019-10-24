@@ -82,17 +82,17 @@ For developers
     topics/cli
     topics/python_api
     topics/scripting
-    datatypes/index
+    topics/datatypes/index
     topics/groups
-    scheduler/index
-    querying/index
+    topics/scheduler/index
+    topics/querying/index
     topics/caching
     topics/resultmanager
-    backup/index
+    topics/backup/index
     topics/troubleshooting
     topics/visualising_graphs/visualising_graphs
     topics/deleting_nodes.rst
-    import_export/index
+    topics/import_export/index
 
 .. toctree::
     :maxdepth: 1
