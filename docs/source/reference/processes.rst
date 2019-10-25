@@ -185,9 +185,9 @@ Unsealed process nodes can also not be exported, because they belong to processe
 Note that the sealing concept does not apply to data nodes and they are exportable as soon as they are stored.
 To determine whether a process node is sealed, one can use the property :py:meth:`~aiida.orm.utils.mixins.Sealable.is_sealed`.
 
-==========
-Aplication
-==========
+===========
+Application
+===========
 
 .. _working_processes:
 
