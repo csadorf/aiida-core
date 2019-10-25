@@ -6,12 +6,6 @@ One way of interacting with AiiDA is through the ``verdi`` command line interfac
 
 Before checking out the individual commands below, start with a brief look at the :ref:`general concepts<cli_concepts>` that apply across all commands.
 
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    ../verdi/verdi_user_guide.rst
-
 .. _verdi_overview:
 
 * :ref:`calcjob<verdi_calcjob>`:  Inspect and manage calcjobs.
