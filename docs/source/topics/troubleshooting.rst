@@ -2,15 +2,6 @@
 Troubleshooting
 ===============
 
-Some tricks
-===========
-
-.. toctree::
-  :maxdepth: 1
-
-  ../setup/ssh_proxycommand
-
-
 Increasing the debug level
 ==========================
 
