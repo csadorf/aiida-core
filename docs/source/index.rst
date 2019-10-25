@@ -75,8 +75,7 @@ For developers
     topics/scheduler/index
     topics/caching
     topics/resultmanager
-    topics/computers
-    topics/codes
+    topics/computers_codes
     topics/plugins
     topics/troubleshooting
 
