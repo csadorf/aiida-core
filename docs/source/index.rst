@@ -79,17 +79,12 @@ For developers
     :caption: Working with AiiDA
     :hidden:
 
+    topics/data
     topics/scripting
-    topics/datatypes/index
-    topics/groups
     topics/scheduler/index
-    topics/querying/index
     topics/caching
     topics/resultmanager
-    topics/backup/index
     topics/troubleshooting
-    topics/deleting_nodes.rst
-    topics/import_export/index
 
 .. toctree::
     :maxdepth: 1
