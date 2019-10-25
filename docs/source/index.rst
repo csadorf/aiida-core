@@ -72,7 +72,7 @@ For developers
     topics/data
     topics/cli
     topics/scripting
-    topics/scheduler/index
+    topics/scheduler
     topics/caching
     topics/resultmanager
     topics/computers_codes

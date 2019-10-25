@@ -18,7 +18,7 @@ Requirements for a computer are:
 
 * It must run a Unix-like operating system
 * It must have ``bash`` installed
-* It should have a batch scheduler installed (see :doc:`here <scheduler/index>`
+* It should have a batch scheduler installed (see :doc:`here <scheduler>`
   for a list of supported batch schedulers)
 * It must be accessible from the machine that runs AiiDA using one of the
   available transports (see below).
