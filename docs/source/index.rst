@@ -64,16 +64,6 @@ For developers
     install/updating_installation
     install/troubleshooting
 
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Getting started
-    :hidden:
-
-    get_started/plugins
-    get_started/computers
-    get_started/codes
-
 .. toctree::
     :maxdepth: 1
     :caption: Working with AiiDA
@@ -84,6 +74,9 @@ For developers
     topics/scheduler/index
     topics/caching
     topics/resultmanager
+    topics/computers
+    topics/codes
+    topics/plugins
     topics/troubleshooting
 
 .. toctree::
