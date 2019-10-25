@@ -77,6 +77,7 @@ For developers
     topics/resultmanager
     topics/computers_codes
     topics/plugins
+    topics/cookbook
     topics/troubleshooting
 
 .. toctree::
@@ -107,13 +108,6 @@ For developers
     api/verdi
     apidoc/aiida
     api/rest
-
-.. toctree::
-   :maxdepth: 1
-   :caption: How-to Guide
-   :hidden:
-
-   howto/cookbook
 
 
 ***********
