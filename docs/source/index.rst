@@ -114,7 +114,6 @@ For developers
    :hidden:
 
    howto/cookbook
-   howto/daemon_service.rst
    howto/visualising_graphs/visualising_graphs
 
 
