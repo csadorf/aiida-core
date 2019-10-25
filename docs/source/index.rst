@@ -70,6 +70,7 @@ For developers
     :hidden:
 
     topics/data
+    topics/cli
     topics/scripting
     topics/scheduler/index
     topics/caching
@@ -104,7 +105,7 @@ For developers
     :caption: API reference
     :hidden:
 
-    api/cli
+    api/verdi
     apidoc/aiida
     api/rest
 
