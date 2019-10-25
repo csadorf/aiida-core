@@ -131,6 +131,7 @@ It should print a snapshot of the queue status, without any errors.
 
 Computer setup and configuration
 ================================
+
 The configuration of computers happens in two steps.
 
 .. note:: The commands use some ``readline`` extensions to provide default
@@ -419,7 +420,8 @@ In AiiDA, we distinguish two types of codes: **remote** codes and **local** code
 where the distinction between the two is described here below.
 
 Remote codes
-------------
+============
+
 With remote codes we denote codes that are installed/compiled
 on the remote computer. Indeed, this is very often the case for codes installed
 in supercomputers for high-performance computing applications, because the
@@ -431,7 +433,8 @@ In AiiDA, a remote code is identified by two mandatory pieces of information:
 * The absolute path of the code executable on the remote computer.
 
 Local codes
------------
+===========
+
 With local codes we denote codes for which the code is not
 already present on the remote machine, and must be copied for every submission.
 This is the case if you have for instance a small, machine-independent Python
@@ -443,7 +446,7 @@ In AiiDA, a local code can be set up by specifying:
 * The name of executable file among the files inside the folder specified above
 
 Setting up a code
------------------
+=================
 
 The::
 
