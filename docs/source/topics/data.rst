@@ -13,5 +13,6 @@ This section provides guidance on the ways in which we can interact with data ma
     groups
     querying/index
     deleting_nodes.rst
+    visualising_graphs/visualising_graphs
     backup/index
     import_export/index
