@@ -1,3 +1,6 @@
+Scripting
+=========
+
 Verdi shell
 -----------
 By running ``verdi shell`` on the terminal, a new interactive
