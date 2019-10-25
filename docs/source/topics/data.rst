@@ -12,6 +12,7 @@ This section provides guidance on the ways in which we can interact with data ma
     datatypes/index
     groups
     querying/index
+    resultmanager.rst
     deleting_nodes.rst
     visualising_graphs/visualising_graphs
     backup/index

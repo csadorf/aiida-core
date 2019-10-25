@@ -74,7 +74,6 @@ For developers
     topics/scripting
     topics/scheduler
     topics/caching
-    topics/resultmanager
     topics/computers_codes
     topics/plugins
     topics/cookbook

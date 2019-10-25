@@ -1,16 +1,12 @@
-==============
-Result manager
-==============
-
-
-Retrieving results
-==================
+===================
+Calculation results
+===================
 
 In this section, we describe how to get the results of a calculation after it has been parsed by AiiDA, or the input and output of a generic Node.
 When a calculation is done on the remote computer, AiiDA will retrieve the results and try to parse the results with the default parser, if one is available for the given calculation. These results are stored in new nodes, and connected as output of the calculation. Of course, it is possible to :ref:`directly check the output nodes <db_input_output>` for a given calculation and get their content. However, AiiDA provides a way to directly access the results, using the :py:class:`CalcJobResultManager<aiida.orm.utils.calcjob.CalcJobResultManager>` class, described in the next section.
 
 The CalcJobResultManager
-+++++++++++++++++++++++++++++
+========================
 
 Prerequisites
 -------------
@@ -29,7 +25,7 @@ either in ``verdi shell``, or in a python script (as described :doc:`here <scrip
 ``YOURPK`` should be substituted by a valid calculation ``PK`` in your database.
 
 Using the CalcJobResultManager instance
--------------------------------------------
+---------------------------------------
 
 Each :class:`CalcJobNode<aiida.orm.nodes.process.calculation.calcjob.CalcJobNode>` has a ``res`` attribute that is a
 :class:`~aiida.orm.utils.calcjob.CalcJobResultManager` instance and
@@ -76,7 +72,7 @@ provides a parser.
 .. _db_input_output:
 
 Calculations and workflows inputs and outputs
-++++++++++++++++++++++++++++++++++++++++++++++
+=============================================
 
 In the following, we will show the methods to access the input and output nodes of a given calculation or workflow.
 
