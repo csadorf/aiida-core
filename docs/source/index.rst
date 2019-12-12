@@ -42,7 +42,7 @@ Getting started
  * The `AiiDA tutorials <https://aiida-tutorials.readthedocs.io/en/latest/>`_ are a good place to get started with using AiiDA.
  * Afterwards, you might want to :ref:`install AiiDA<installation>` on your machine.
  * For setting up a production environment, you may find the :ref:`configuration <configure_aiida>` section helpful.
- * For the advanced, there is the complete :doc:`AiiDA API reference<apidoc/aiida>` (including a :ref:`modindex`), and of course you can always peek into the code on the `AiiDA git repository <https://github.com/aiidateam/aiida-core>`_.
+ * For the advanced, there is the complete :doc:`AiiDA API reference<reference/apidoc/aiida>` (including a :ref:`modindex`), and of course you can always peek into the code on the `AiiDA git repository <https://github.com/aiidateam/aiida-core>`_.
 
 **************
 For developers
@@ -54,7 +54,7 @@ For developers
 
 .. toctree::
     :maxdepth: 1
-    :caption: Installation
+    :caption: Setup
     :hidden:
 
     install/quick_installation
@@ -65,18 +65,13 @@ For developers
     install/troubleshooting
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Working with AiiDA
-    :hidden:
+   :maxdepth: 2
+   :caption: Working With AiiDA
 
-    working_with_aiida/index
-
-.. toctree::
-    :maxdepth: 1
-    :caption: Reference Guide
-    :hidden:
-
-    reference/index
+   tutorial/index
+   how_to/index
+   topics/index
+   reference/index
 
 .. toctree::
    :maxdepth: 1
@@ -86,13 +81,6 @@ For developers
    developer_guide/plugins
    developer_guide/core
 
-.. toctree::
-    :maxdepth: 1
-    :caption: API reference
-    :hidden:
-
-    apidoc/aiida
-    restapi/index
 
 ***********
 How to cite

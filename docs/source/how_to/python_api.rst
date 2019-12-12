@@ -1,6 +1,6 @@
 .. _python_api_public_list:
 
-Public resources
+Python interface
 ----------------
 
 The main package of ``aiida-core`` is called ``aiida``, which contains various sub-packages that we refer to as "second-level packages".

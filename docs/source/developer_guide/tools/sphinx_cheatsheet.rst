@@ -45,7 +45,7 @@ Code Download
 
 Code can be downloaded like this.
 
-Download: :download:`this example script <../../concepts/include/snippets/calculations/calcfunctions/add_multiply_plain_python.py>`
+Download: :download:`this example script <../../topics/include/snippets/calculations/calcfunctions/add_multiply_plain_python.py>`
 
 Code Display
 ============
@@ -54,7 +54,7 @@ Can be done like this.
 This entire document can be seen unformatted at :ref:`this-page` using the keyword ``literalinclude``.
 For more details, see the `Sphinx documentation <https://www.sphinx-doc.org/en/latest/usage/restructuredtext/directives.html#directive-literalinclude>`_.
 
-.. literalinclude:: ../../concepts/include/snippets/calculations/calcfunctions/add_multiply_plain_python.py
+.. literalinclude:: ../../topics/include/snippets/calculations/calcfunctions/add_multiply_plain_python.py
 
 .. _self-reference:
 
@@ -95,7 +95,7 @@ For example the parser docs can be indexed like this:
 .. toctree::
    :maxdepth: 1
 
-   aiida.orm <../../apidoc/aiida.orm>
+   aiida.orm <../../reference/apidoc/aiida.orm>
 
 
 Automodules Example

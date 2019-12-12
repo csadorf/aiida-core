@@ -1,3 +1,6 @@
+Scripting
+=========
+
 Verdi shell
 -----------
 By running ``verdi shell`` on the terminal, a new interactive
@@ -22,7 +25,7 @@ modules/classes are already loaded and available::
 
 A further advantage is that bash completion is enabled, allowing to press the
 ``TAB`` key to see available submethods of a given object (see for instance
-the documentation of the :doc:`ResultManager <../working_with_aiida/resultmanager>`).
+the documentation of the :doc:`ResultManager <resultmanager>`).
 
 .. _writing_python_scripts_for_aiida:
 
@@ -88,5 +91,3 @@ executable that is run using AiiDA. A simple example could be::
 
   import aiida
   print "AiiDA version is: {}".format(aiida.get_version())
-
-

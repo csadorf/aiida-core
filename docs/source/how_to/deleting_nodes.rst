@@ -1,7 +1,7 @@
 .. _deleting_nodes:
 
-Usage
-=====
+Deleting nodes
+--------------
 
 In order to delete a given set of nodes, you just need to run::
 
