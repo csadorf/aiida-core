@@ -96,22 +96,7 @@ jobs:
         body: |
           I have checked the requirements for this commit and found some
           inconsistencies. It appears that at least one of the environments
-          used for testing (to be found in the 'requirements/' directory) is
-          not meeting the dependencies specified in the 'setup.json' file.
-
-          You might need to run the 'update-requirements' workflow to
-          mitigate that.
-
-    - name: Create PR comment
-      if: failure()
-      uses: peter-evans/create-or-update-comment@v1
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        issue-number: 1
-        body: |
-          I have checked the requirements for this commit and found some
-          inconsistencies. It appears that at least one of the environments
-          used for testing (to be found in the 'requirements/' directory) is
+          used for testing (to be found in the requirements/ directory) is
           not meeting the dependencies specified in the 'setup.json' file.
 
           You might need to run the 'update-requirements' workflow to
