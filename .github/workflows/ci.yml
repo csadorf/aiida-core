@@ -84,7 +84,7 @@ jobs:
       run: python ./utils/dependency_management.py check-requirements DEFAULT
 
     - name: Create commit comment
-      if: failure()
+      if: failure() && github.repository == 'aiidateam/aiida-core'
       uses: peter-evans/commit-comment@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -94,8 +94,22 @@ jobs:
           ('requirements/*.txt') is not meeting the dependencies specified in the 'setup.json' file.
           These files define the environment for continuous integration tests, so it is important that they are updated.
 
-          If this commit is part of a pull request, you can automatically update the requirements by
-          commenting with '/update-requirements'.
+          You can automatically update the requirements by commenting with '/update-requirements'.
+
+          Click [here](https://github.com/aiidateam/aiida-core/wiki/AiiDA-Dependency-Management) for more information.
+
+    - name: Create commit comment
+      if: failure() && github.repository != 'aiidateam/aiida-core'
+      uses: peter-evans/commit-comment@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: setup.json
+        body: |
+          It appears that at least one of the environments defined in the requirements files
+          ('requirements/*.txt') is not meeting the dependencies specified in the 'setup.json' file.
+          These files define the environment for continuous integration tests, so it is important that they are updated.
+
+          Please update the requirements files manually.
 
           Click [here](https://github.com/aiidateam/aiida-core/wiki/AiiDA-Dependency-Management) for more information.
 
