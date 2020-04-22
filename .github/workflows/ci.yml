@@ -105,24 +105,24 @@ jobs:
         backend: ['django', 'sqlalchemy']
         python-version: [3.5, 3.8]
 
-    services:
-      postgres:
-        image: postgres:10
-        env:
-          POSTGRES_DB: test_${{ matrix.backend }}
-          POSTGRES_PASSWORD: ''
-          POSTGRES_HOST_AUTH_METHOD: trust
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-        ports:
-          - 5432:5432
-      rabbitmq:
-        image: rabbitmq:latest
-        ports:
-          - 5672:5672
+    #services:  # TODO: UNCOMMENT AFTER DEBUGGING
+    #  postgres:
+    #    image: postgres:10
+    #    env:
+    #      POSTGRES_DB: test_${{ matrix.backend }}
+    #      POSTGRES_PASSWORD: ''
+    #      POSTGRES_HOST_AUTH_METHOD: trust
+    #    options: >-
+    #      --health-cmd pg_isready
+    #      --health-interval 10s
+    #      --health-timeout 5s
+    #      --health-retries 5
+    #    ports:
+    #      - 5432:5432
+    #  rabbitmq:
+    #    image: rabbitmq:latest
+    #    ports:
+    #      - 5672:5672
 
     steps:
     - uses: actions/checkout@v2
@@ -132,11 +132,11 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    - name: Install system dependencies
-      run: |
-        sudo rm -f /etc/apt/sources.list.d/dotnetdev.list /etc/apt/sources.list.d/microsoft-prod.list
-        sudo apt update
-        sudo apt install postgresql-10 graphviz
+    #- name: Install system dependencies  # TODO: UNCOMMENT AFTER DEBUGGING
+    #  run: |
+    #    sudo rm -f /etc/apt/sources.list.d/dotnetdev.list /etc/apt/sources.list.d/microsoft-prod.list
+    #    sudo apt update
+    #    sudo apt install postgresql-10 graphviz
 
     - name: Upgrade pip
       run: |
@@ -154,26 +154,26 @@ jobs:
         reentry scan
         pip freeze
 
-    - name: Setup environment
-      env:
-        AIIDA_TEST_BACKEND: ${{ matrix.backend }}
-      run:
-        .github/workflows/setup.sh
+    #- name: Setup environment  # TODO: UNCOMMENT AFTER DEBUGGING
+    #  env:
+    #    AIIDA_TEST_BACKEND: ${{ matrix.backend }}
+    #  run:
+    #    .github/workflows/setup.sh
 
-    - name: Run test suite
-      env:
-        AIIDA_TEST_BACKEND: ${{ matrix.backend }}
-      run:
-        .github/workflows/tests.sh
+    #- name: Run test suite  # TODO: UNCOMMENT AFTER DEBUGGING
+    #  env:
+    #    AIIDA_TEST_BACKEND: ${{ matrix.backend }}
+    #  run:
+    #    .github/workflows/tests.sh
 
-    - name: Upload coverage report
-      if: matrix.python-version == 3.5 && github.repository == 'aiidateam/aiida-core'
-      uses: codecov/codecov-action@v1
-      with:
-        name: aiida-pytests-py3.5-${{ matrix.backend }}
-        flags: ${{ matrix.backend }}
-        file: ./coverage.xml
-        fail_ci_if_error: true
+    #- name: Upload coverage report
+    #  if: matrix.python-version == 3.5 && github.repository == 'aiidateam/aiida-core'
+    #  uses: codecov/codecov-action@v1
+    #  with:
+    #    name: aiida-pytests-py3.5-${{ matrix.backend }}
+    #    flags: ${{ matrix.backend }}
+    #    file: ./coverage.xml
+    #    fail_ci_if_error: true
 
   verdi:
 
