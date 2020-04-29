@@ -15,30 +15,80 @@
 Welcome to AiiDA's documentation!
 #################################
 
-`AiiDA`_ is a python framework that aims to help researchers with managing complex workflows and making them fully reproducible.
+`AiiDA`_ is an open-source framework implemented in Python that aims to help researchers with managing simple to complex workflows and making them fully reproducible.
 
-.. _AiiDA: http://www.aiida.net
+.. _AiiDA: https://www.aiida.net
 
+.. raw:: html
 
-************
-Features
-************
-
- * **Workflows:** Write complex, auto-documenting workflows in python, linked to arbitrary executables on local and remote computers. The event-based workflow engine supports tens of thousands of processes per hour with full checkpointing.
- * **Data provenance:** Automatically track inputs, outpus & metadata of all calculations in a provenance graph for full reproducibility. Perform fast queries on graphs containing millions of nodes.
- * **HPC interface:** Move your calculations to a different computer by changing one line of code. AiiDA is compatible with schedulers like `SLURM <https://slurm.schedmd.com>`_, `PBS Pro <https://www.pbspro.org/>`_, `torque <http://www.adaptivecomputing.com/products/torque/>`_, `SGE <http://gridscheduler.sourceforge.net/>`_ or `LSF <https://www.ibm.com/support/knowledgecenter/SSETD4/product_welcome_platform_lsf.html>`_ out of the box.
- * **Plugin interface:** Extend AiiDA with `plugins <https://aiidateam.github.io/aiida-registry/>`_ for new simulation codes (input generation & parsing), data types, schedulers, transport modes and more.
- * **Open Science:** Export subsets of your provenance graph and share them with peers or make them available online for everyone on the `Materials Cloud <https://www.materialscloud.org>`_.
- * **Open source:** AiiDA is released under the `MIT open source license <https://github.com/aiidateam/aiida-core/blob/develop/LICENSE.txt>`_.
-
-See also the `AiiDA home page`_.
-
-.. _AiiDA home page: http://www.aiida.net
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/index_getting_started.svg" class="card-img-top" alt="getting started with pandas action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">Getting started</h5>
+                    <p class="card-text">New to <em>pandas</em>? Check out the getting started guides. They
+                    contain an introduction to <em>pandas'</em> main concepts and links to additional tutorials.</p>
+                </div>
+                </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/index_user_guide.svg" class="card-img-top" alt="pandas user guide action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">Tutorial</h5>
+                    <p class="card-text">The user guide provides in-depth information on the
+                    key concepts of pandas with useful background information and explanation.</p>
+                </div>
+                </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/index_user_guide.svg" class="card-img-top" alt="pandas user guide action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">How-To Guides</h5>
+                    <p class="card-text">The user guide provides in-depth information on the
+                    key concepts of pandas with useful background information and explanation.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/index_user_guide.svg" class="card-img-top" alt="pandas user guide action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">Topics</h5>
+                    <p class="card-text">The user guide provides in-depth information on the
+                    key concepts of pandas with useful background information and explanation.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/index_user_guide.svg" class="card-img-top" alt="pandas user guide action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">API Reference</h5>
+                    <p class="card-text">The user guide provides in-depth information on the
+                    key concepts of pandas with useful background information and explanation.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d-flex">
+                <div class="card text-center intro-card shadow">
+                <img src="_static/index_user_guide.svg" class="card-img-top" alt="pandas user guide action icon" height="52">
+                <div class="card-body flex-fill">
+                    <h5 class="card-title">Development</h5>
+                    <p class="card-text">The user guide provides in-depth information on the
+                    key concepts of pandas with useful background information and explanation.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Getting Started
+   :hidden:
 
    intro/about
    intro/installation
@@ -47,36 +97,42 @@ See also the `AiiDA home page`_.
 .. toctree::
    :maxdepth: 2
    :caption: Tutorial
+   :hidden:
 
    tutorial/placeholder
 
 .. toctree::
    :maxdepth: 2
    :caption: How-To Guides
+   :hidden:
 
    howto/placeholder
 
 .. toctree::
    :maxdepth: 2
    :caption: Topics
+   :hidden:
 
    topics/placeholder
 
 .. toctree::
    :maxdepth: 2
    :caption: Reference
+   :hidden:
 
    reference/placeholder
 
 .. toctree::
    :maxdepth: 2
    :caption: Plugins
+   :hidden:
 
    plugins/placeholder
 
 .. toctree::
    :maxdepth: 2
    :caption: Development
+   :hidden:
 
    development/placeholder
 
