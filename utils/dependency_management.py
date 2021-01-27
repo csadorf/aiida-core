@@ -421,5 +421,19 @@ def pip_install_extras(extras):
     subprocess.run(cmd, check=True)
 
 
+@cli.command()
+def latest_releases():
+    import feedparser
+    from pprint import pprint
+
+    setup_cfg = _load_setup_cfg()
+    install_requirements = [Requirement.parse(r) for r in setup_cfg['install_requires']]
+    projects = {requirement.project_name: requirement for requirement in install_requirements}
+    feed = feedparser.parse('https://test.pypi.org/rss/updates.xml')  # TODO replace with realy PyPI
+
+    for entry in feed['entries']:
+        print(f"[{entry['published']}] {entry['title']}")
+
+
 if __name__ == '__main__':
     cli()  # pylint: disable=no-value-for-parameter
